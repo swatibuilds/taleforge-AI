@@ -2,6 +2,8 @@
 
 TaleForge is a multi-agent AI system that converts images into immersive stories using computer vision and large language models.
 
+Live demo: https://ai-story-generator-satyam.streamlit.app/
+
 ## Features
 
 - Multi-agent AI architecture
