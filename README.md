@@ -39,7 +39,7 @@ Streamlit
 ## Installation
 
 ```bash
-git clone https://github.com/Satyam-Singh-x/taleforge-ai.git
+git clone https://github.com/swatibuilds/taleforge-AI.git
 cd taleforge-ai
 pip install -r requirements.txt
 
