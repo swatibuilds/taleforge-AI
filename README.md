@@ -1,61 +1,54 @@
-TaleForge – Agentic Visual Storytelling AI
+# TaleForge – Agentic Visual Storytelling AI
 
 TaleForge is a multi-agent AI system that converts images into immersive stories using computer vision and large language models.
 
-Features
+## Features
 
-Multi-agent AI 
+- Multi-agent AI architecture
+- Image understanding using Gemini Vision
+- Story planning and generation using local LLMs (Qwen via Ollama)
+- Narrative critique and refinement
+- Streamlit interactive interface
+- Story narration and PDF export
 
-Image understanding using Gemini Vision
+## Architecture
 
-Story planning and generation using local LLMs (Qwen via Ollama)
+Images
+↓
+Vision Agent (Gemini)
+↓
+Scene Extraction Agent
+↓
+Story Planner Agent
+↓
+Story Generator Agent
+↓
+Critic Agent
 
-Narrative critique and refinement
+## Tech Stack
 
-Streamlit interactive interface
+Python  
+LangGraph  
+LangChain  
+Gemini Vision API  
+Ollama (Qwen2.5)  
+Streamlit  
 
-Story narration and PDF export
+## Installation
 
-
-Architecture
-
-Images ↓ Vision Agent (Gemini) ↓ Scene Extraction Agent ↓ Story Planner Agent ↓ Story Generator Agent ↓ Critic Agent
-
-
-Tech Stack
-
-Python
-
-LangGraph
-
-LangChain
-
-Gemini Vision API
-
-Ollama (Qwen2.5)
-
-Streamlit
-
-
-
-
-Installation
-
-git clone https://github.com/swatibuilds/taleforge-AI.git
-
-cd taleforge-AI
-
+```bash
+git clone https://github.com/Satyam-Singh-x/taleforge-ai.git
+cd taleforge-ai
 pip install -r requirements.txt
-
 
 Run:
 
 streamlit run app.py
+```
 
-Example Workflow
+## Example Workflow
 
 Upload images
-
 
 Select story genre
 
@@ -73,15 +66,17 @@ Agent workflow visualization
 
 Story continuation
 
-Built using Agentic AI principles.
+### Built using Agentic AI principles.
 
 
-Contact:
+
+### Contact:
+
 
 Swati Singh
+
 Associate at Cognizant
 
-
-
+Generative & Agentic AI Enthusiast
 
 Email: sonyxswati@gmail.com
